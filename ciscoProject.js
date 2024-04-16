@@ -20,7 +20,7 @@ var contact3 = {
 // Display information in console for contact1 & contact3
 
 console.log("First Contact")
-console.log(contact1.name + contact1.phone + contact1.email)
+console.log(contact1.name + "/" + contact1.phone + "/" + contact1.email)
 
 console.log("Last Contact")
-console.log(contact3.name + contact3.phone + contact3.email)
+console.log(contact3.name + "/" + contact3.phone + "/" + contact3.email)
