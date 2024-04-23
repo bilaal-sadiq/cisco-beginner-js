@@ -19,20 +19,27 @@ let contacts = [
         email: "libero@convallis.edu"
     },
 ]
+// New contact
 
 let newContact = {
-    name: "Maisie Haley"
-    phone: "0913 531 3030"
+    name: "Maisie Haley",
+    phone: "0913 531 3030",
     email: "risus.Quisque@urna.ca"
 }
 
+// Push array to the end of original array
+
 contacts.push(newContact);
 
+// Length property used to determine last index in element
 
-// Display information in console for contact1 & contact3
+let firstContact = contacts [0];
+let lastContact = contacts[contacts.length - 1];
 
-/* console.log("First Contact")
-console.log(contact1.name + "/" + contact1.phone + "/" + contact1.email)
+// Display information in console for contact1 & contact3 using .length
 
-console.log("Last Contact")
-console.log(contact3.name + "/" + contact3.phone + "/" + contact3.email) */
+console.log(`${firstContact.name} / ${firstContact.phone} / ${firstContact.email}`);
+console.log(`${lastContact.name} / ${lastContact.phone} / ${lastContact.email}`); 
+
+
+
