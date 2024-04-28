@@ -27,9 +27,23 @@ let newContact = {
     email: "risus.Quisque@urna.ca"
 }
 
+// Use Prompt to get data for new contact
+
+let newName = prompt("Enter your name")
+let newPhone = prompt("Enter your phone number")
+let newEmail = prompt("Enter your email address")
+
+// Create new contact 
+
+let addContact = {
+    name: newName,
+    phone: newPhone,
+    email: newEmail
+}
+
 // Push array to the end of original array
 
-contacts.push(newContact);
+contacts.push(addContact);
 
 // Length property used to determine last index in element
 
@@ -40,6 +54,9 @@ let lastContact = contacts[contacts.length - 1];
 
 console.log(`${firstContact.name} / ${firstContact.phone} / ${firstContact.email}`);
 console.log(`${lastContact.name} / ${lastContact.phone} / ${lastContact.email}`); 
+
+
+
 
 
 

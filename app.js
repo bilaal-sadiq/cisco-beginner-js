@@ -1,4 +1,4 @@
-let books =[{
+/* let books =[{
 
     title: "Speaking Javascript",
     author: "Axel Rauschmayer",
@@ -34,4 +34,6 @@ console.log(books[1].title);
 console.log(books[2].title);
 
 let sum = books[0].pages +  books[1].pages +  books[2].pages; 
-console.log(`pages: ${sum}`);
+console.log(`pages: ${sum}`); */ 
+
+
